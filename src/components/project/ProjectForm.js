@@ -53,11 +53,14 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
         <form onSubmit={submit} className={styles.form}>
             <Input handleOnChance={handleChange}
                 type="text" text="Nome do Projeto" name="name"
-                placeholder="Insira o nome do projeto"/>
+                placeholder="Insira o nome do projeto" />
 
             <Input handleOnChance={handleChange}
                 type="number" text="Orçamento do Projeto" name="budget"
                 placeholder="Insira o orçamento do projeto" />
+            <Input handleOnChance={handleChange}
+                type="text" text="Descrição do projeto" name="descricao"
+                placeholder="Insira a descrição do projeto" />
 
             <Select handleOnChance={handleCategory}
                 name="category_id" text="Selecione a categoria"

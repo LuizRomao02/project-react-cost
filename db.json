@@ -1,8 +1,9 @@
 {
   "projects": [
     {
-      "name": "Projeto de Desenvolvimento",
-      "budget": "10000",
+      "name": "Projeto 02",
+      "budget": "1000.00",
+      "descricao": "teste para descricao ",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -10,6 +11,42 @@
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Projeto Infraestrutura",
+      "budget": "9000.00",
+      "descricao": "Projeto de infraestrutura para toda a empresa",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Troca de aparelhos",
+      "budget": "20.000",
+      "descricao": "Troca de todos os aparelhos fiscais",
+      "category": {
+        "id": "5",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Editar imagens das redes sociais",
+      "budget": "2.000",
+      "descricao": "Alterar imagens Instagram e Facebook",
+      "category": {
+        "id": "4",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
