@@ -6,6 +6,7 @@ import Loading from '../layout/Loading'
 import Container from '../layout/Container'
 import ProjectForm from '../project/ProjectForm'
 import Message from '../layout/Message'
+import { Link } from 'react-router-dom'
 
 
 function Project() {
@@ -70,6 +71,7 @@ function Project() {
                         <div className={styles.details_container}>
                             <h1>Projeto: {project.name} </h1>
                             <button className={styles.btn} onClick={toggleProjectForm} > {!showProjectForm ? 'Editar projeto' : 'Fechar'} </button>
+                            <Link className={styles.btnBack} to="/projects">Voltar</Link>
                             {!showProjectForm ? (
                                 <div className={styles.project_info}>
                                     <p>
