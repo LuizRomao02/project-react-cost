@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "name": "Projeto Infraestrutura",
+      "name": "Projeto 01",
       "budget": "9000.00",
-      "descricao": "Projeto de infraestrutura para toda a empresa",
+      "descricao": "Descrição realizada corretamente",
       "category": {
         "id": "1",
         "name": "Infra"

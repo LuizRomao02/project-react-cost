@@ -6,10 +6,8 @@ import SubmitButton from '../form/SubmitButton'
 import styles from './ProjectForm.module.css'
 
 function ProjectForm({ handleSubmit, btnText, projectData }) {
-
-
     const [categories, setCategories] = useState([])
-
+    
     //PARA VER SE OS DADOS VEM PARA INICIALIZAR ELES OU NAo
     const [project, setProject] = useState(projectData || {})
 
